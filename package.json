@@ -1,0 +1,10 @@
+{
+  "name": "awaiter",
+  "version": "0.0.1",
+  "description": "An async/wait utility belt for node and the browser.",
+  "main": "index.js",
+  "repository": "git@github.com:alnorris/awaiter.git",
+  "author": "Alister <hi@alisternorris.com>",
+  "license": "MIT",
+  "private": false
+}
