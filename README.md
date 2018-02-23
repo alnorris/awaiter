@@ -1,2 +1,2 @@
 # awaiter
-Async wait utility built.
+Async wait utility belt.
