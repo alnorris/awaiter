@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="https://yarnpkg.com/">
+    <img alt="Yarn" src="https://github.com/alnorris/awaiter/blob/master/logo.png?raw=true" width="546">
+  </a>
+</p>
+
+
 # awaiter
 An async/wait utility belt for node and the browser. Like lodash but for async stuff.
 
@@ -8,6 +15,3 @@ An async/wait utility belt for node and the browser. Like lodash but for async s
 or if your a yarn user...
 
 `yarn add awaiter`
-
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
