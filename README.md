@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://yarnpkg.com/">
-    <img alt="Yarn" src="https://github.com/alnorris/awaiter/blob/master/logo.png?raw=true">
-  </a>
+    <img  src="https://github.com/alnorris/awaiter/blob/master/logo.png?raw=true">
 </p>
 
 
