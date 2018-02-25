@@ -5,6 +5,14 @@
 </p>
 
 
+reflect
+
+
+add badge
+
+PR's are welcome
+
+
 # awaiter
 An async/wait utility belt for node and the browser. Like lodash but for async stuff.
 

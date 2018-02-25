@@ -53,7 +53,6 @@ exports.silentCatchAll = (arrProm) => {
 // give you back the error message
 exports.returnCatchAll = (arrProm) => {
   arrProm.map(prom => (prom.catch(e) => e)))
-
   return Promise.all(arrProm);
 
 }
@@ -66,20 +65,28 @@ exports.nullCatchAll = (arrProm) => {
 
 }
 
-
-export.limitAll = (limit, arrProm) => {
+/*
+Limit concurrency of Promise.all
+*/
+exports.limitAll = (limit, arrProm) => {
 
 
 }
 
 
+const timeOutPromise = ms => {
+  return new Promise((resolve, reject) => setTimeout(reject, ms))
+}
 
 
 //rject indivudal promise after
-export.timeOut = (ms, prom) => {
-
+exports.timeOut = (ms, promise) => {
+  return Promise.race([timeOutPromise(ms), promise])
 }
 
+
+
+const user = await timeOut(4000, getUser(id))
 
 
 https://github.com/sindresorhus/p-throttle
@@ -98,20 +105,28 @@ export.timeOutAll => {
 export.timeOutRace = (ms, arrProm) => {
 
 }
+https://github.com/sindresorhus/p-event
 
+https://github.com/sindresorhus/p-queue
 
+https://github.com/sindresorhus/p-all
 export.
 
 http://bluebirdjs.com/docs/api/promise.some.html
 
+https://github.com/sindresorhus/p-map
 
-
-
+exports.Promisify
 
 export.delay = (ms, value) => {
   new Promise(res => setTimeout(() => res, ms));
 }
 
+https://github.com/sindresorhus/p-reflect
 
 
+https://github.com/sindresorhus/p-locate
+
+
+https://github.com/sindresorhus/p-time
 
